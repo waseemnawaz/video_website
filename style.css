@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
 html { 
   /*background:  url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed;*/
-  background:  url("./img/secondgif.gif") no-repeat center center fixed;
+  /*background:  url("./img/secondgif1.gif") no-repeat center center fixed;*/
+  background:  url(https://media.giphy.com/media/l0HU2n9NnOwmE8HbG/giphy.gif) no-repeat center center fixed;
   background-size: cover;
 }
 h1{

@@ -108,11 +108,17 @@ body{
 
 @media only screen and (max-width: 500px) {
   @import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
-  html { 
+  body { 
     /*background:  url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed;*/
     /*background:  url("./img/secondgif1.gif") no-repeat center center fixed;*/
     background:  url(https://media.giphy.com/media/l0HU2n9NnOwmE8HbG/giphy.gif) no-repeat center center fixed;
+    background-position: center;
     background-size: cover;
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
   }
   h1 {
     font-family: 'Advent Pro', sans-serif;
@@ -120,7 +126,7 @@ body{
     margin: .2em .5em;
     color: rgba(0,0,0, 0.3);
   }
-  body {
+  /*body {
     height: 100%;
-  }
+  }*/
 }
